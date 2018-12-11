@@ -9,11 +9,10 @@ module.exports = function(grunt) {
             // @todo remove drupal
             dist: {
                 src: [
-                    'src/init.js',
-                    'src/modules/column-sorter.js',
-                    'src/modules/column-toggle.js',
-                    'src/modules/filter.js',
-                    'src/modules/pagination.js',
+                    'src/plugins/column-sorter.js',
+                    'src/plugins/column-toggle.js',
+                    'src/plugins/filter.js',
+                    'src/plugins/pagination.js',
                     'src/table.js'
                 ],
                 dest: 'dist/<%= pkg.name %>.js'

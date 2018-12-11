@@ -1,4 +1,4 @@
-var Table = function Table(options) {
+export var Table = function Table(options) {
 	
 	var table = document.getElementById(options.body);
 	var tableRows = document.getElementsByClassName(options.rows);
